@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grande";
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-image: url(file:///C:/Users/user/Downloads/travel-1209355_1920.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px
+}
+
+.top-wrapper p {
+	opacity: 0.7;
+	margin-bottom: 3px
+}
+
+.btn {
+	padding: 12px 24px 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.signup {
+	background-color: #e17055;
+}
+
+.btn-wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-wrapper p {
+	margin-top: 10px 10px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+header {
+	height: 40px;
+	width: 100%;
+	background-color: hsla(14, 100%, 53%, 0.6);
+	background-attachment: scroll;
+}
+
+.logo {
+	width: 124px;
+	margin-top: 20px;
+}
+
+.header-left {
+	float: left;
+
+}
+
+.header-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: 0.5;
+	width: 60px;
+	text-align: center;
+}
+
+.header-right:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+	line-height: 40px;
+	padding-left: 0 25px;
+	color: white;
+	display: block;
+}
+
+.lesson-wrapper {
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+}
+
+.lesson {
+	float: left;
+	width: 25%
+}
+
+.lesson-icon img{
+	width: 200px;
+	height: 210px;
+	position: relative;
+}
+
+.lesson-wrapper {
+	text-align: center;
+}
+
+.lesson-icon p {
+	position: absolute;
+	top: 790px;
+	width: 300px;
+	color: white;
+	text-align: center;
+}
+
+.btn-wrapper lesson-icon {
+	padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.lesson-icon signup {
+	background-color: #e17055;
+}
+
+.btn lesson {
+	top: 200px;
+}
+
+
+
+
